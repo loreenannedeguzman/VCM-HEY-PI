@@ -251,11 +251,8 @@ bash scripts/run_vcm_touchscreen_gui.sh
 
 ## 13. Items Not Established
 
-Do not fill these with estimates:
-
-- Author/team information: **NOT ESTABLISHED IN PROJECT EVIDENCE**.
-- A100 cluster information for final E50 training: **NOT ESTABLISHED IN PROJECT EVIDENCE**.
-- GUI launch-to-ready latency: **NOT MEASURED**.
+- A100-based final E50 training: **NOT APPLICABLE**. The final E50 command model was trained locally on the project laptop; the reviewed Phase BG/E50 records support local Windows CPU-only TensorFlow training, not A100 or external-cluster training.
+- GUI launch-to-ready latency: **NOT MEASURED AS A CORE VCM BENCHMARK METRIC**. The GUI is documented as a post-freeze presentation/control layer, but no formal launch-to-ready timing benchmark was established.
 - Acoustic speaker-onset latency: **NOT MEASURED**. Pi local response playback-start latency is now measured as qualified external evidence: mean **66.172 ms**, P50 **64.837 ms**, P95/P99/max **73.999 ms** over 5 accepted/executed trials.
 - Full end-to-end wake-to-action latency: **NOT MEASURED**.
 - Full wake-to-response or acoustic end-to-end RTF: **NOT ESTABLISHED**. Qualified command-pipeline RTF to response playback start is established: mean **0.016543**, P95 **0.018500**.
@@ -266,7 +263,7 @@ Do not fill these with estimates:
 - Formal statistical speaker-independent final Pi benchmark: **NOT MEASURED**.
 - Unrestricted dataset redistribution rights: **NOT ESTABLISHED AS A BLANKET CLAIM**.
 
-Post-closure GUI telemetry is excluded from this report as evaluation evidence. It is not a benchmark, validation result, accuracy metric, or evidence of improved E50 performance.
+Post-closure GUI passive telemetry is documented as an operator-facing observability enhancement, not as evaluation evidence. It improves runtime display/status visibility around wake, command, routing, action, response, and return-to-listening behavior, but it is not a benchmark, validation result, latency measurement, accuracy metric, or evidence of improved E50 model performance.
 
 ## 14. Revision Integrity Confirmation
 
