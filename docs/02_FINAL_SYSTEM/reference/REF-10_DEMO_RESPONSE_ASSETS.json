@@ -1,0 +1,27 @@
+{
+  "response_set": "PHASE_BN_CLOSE_PI_WORKING_RESPONSES_EXTRA_LOUD_20260929",
+  "created_for": "E50_BG_REVISED_VOCAB_ORIGINAL_PRESERVE_E41_INIT",
+  "note": "Extra-loud soft-limited copies generated on Pi from the previously audible working responses/*.wav files.",
+  "responses": {
+    "PLAY_MUSIC": "responses_extra_loud_20260929/play_music_extra_loud.wav",
+    "WEATHER": "responses_extra_loud_20260929/weather_extra_loud.wav",
+    "LIGHT_ON": "responses_extra_loud_20260929/light_on_extra_loud.wav",
+    "LIGHT_OFF": "responses_extra_loud_20260929/light_off_extra_loud.wav",
+    "LIGHT_DIM": "responses_extra_loud_20260929/light_dim_extra_loud.wav",
+    "TIMER": "responses_extra_loud_20260929/timer_extra_loud.wav",
+    "ALARM": "responses_extra_loud_20260929/alarm_extra_loud.wav",
+    "NEXT": "responses_extra_loud_20260929/next_extra_loud.wav",
+    "PAUSE": "responses_extra_loud_20260929/pause_extra_loud.wav",
+    "STOP": "responses_extra_loud_20260929/stop_extra_loud.wav",
+    "CREATE_REMINDER": "responses_extra_loud_20260929/create_reminder_extra_loud.wav",
+    "LIST_REMINDERS": "responses_extra_loud_20260929/list_reminders_extra_loud.wav",
+    "MESSAGE": "responses_extra_loud_20260929/message_extra_loud.wav",
+    "UNKNOWN": "responses_extra_loud_20260929/rejected_extra_loud.wav",
+    "TIME": "responses_extra_loud_20260929/time_extra_loud.wav",
+    "BRIGHTNESS": "responses_extra_loud_20260929/brightness_extra_loud.wav",
+    "TEMPERATURE": "responses_extra_loud_20260929/temperature_extra_loud.wav",
+    "VOLUME_UP": "responses_extra_loud_20260929/volume_up_extra_loud.wav",
+    "VOLUME_DOWN": "responses_extra_loud_20260929/volume_down_extra_loud.wav",
+    "CALL": "responses_extra_loud_20260929/call_extra_loud.wav"
+  }
+}

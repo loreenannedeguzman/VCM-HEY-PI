@@ -1,0 +1,15 @@
+{
+  "audio": {
+    "input_device": "plughw:2,0",
+    "output_device": "plughw:CARD=vc4hdmi0,DEV=0"
+  },
+  "runtime": {
+    "wait_for_wake": true,
+    "max_wake_attempts": 0,
+    "wake_retry_delay_sec": 0.2
+  },
+  "notes": [
+    "Copy this file to deployment_config.local.json or point VCM_DEPLOYMENT_CONFIG at a local JSON file if the target Raspberry Pi uses different ALSA devices.",
+    "The device values configure hardware I/O only. They do not change E37, E50, E40, routing, response assets, or benchmark identity."
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "policy_id": "E50_REVISED_VOCAB_E40_FROZEN_THRESHOLDS",
+  "base_policy_id": "E40_NON_LED_COMMAND_GUARDRAIL_THRESHOLDS",
+  "experiment_id": "E50_BG_REVISED_VOCAB_ORIGINAL_PRESERVE_E41_INIT",
+  "default_threshold": 0.9,
+  "thresholds": {
+    "NEXT": 0.98,
+    "CREATE_REMINDER": 0.96,
+    "VOLUME_UP": 0.99,
+    "STOP": 0.995,
+    "PAUSE": 0.99,
+    "TIME": 0.98
+  },
+  "rationale": "Deployment-compatible copy of the frozen E40 command guardrail policy for the Phase BG revised-vocabulary E50 classifier. No thresholds were tuned in this file. Historical COLOR is absent because E50 replaces COLOR with LIGHT_DIM; LIGHT_DIM uses the inherited default threshold 0.90, matching the Phase BG E50 evaluation procedure."
+}

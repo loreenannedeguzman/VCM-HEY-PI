@@ -1,0 +1,14 @@
+{
+  "sample_rate_hz": 16000,
+  "target_duration_sec": 4.0,
+  "frame_length_ms": 25.0,
+  "frame_step_ms": 10.0,
+  "fft_length": 512,
+  "mel_bins": 40,
+  "lower_edge_hz": 20.0,
+  "upper_edge_hz": 7600.0,
+  "log_floor": 1e-6,
+  "normalize": "peak",
+  "expected_frames": 398,
+  "feature_shape": [398, 40]
+}

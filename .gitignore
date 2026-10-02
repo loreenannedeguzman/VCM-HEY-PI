@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# Runtime-generated audio/evidence
+pi_recordings/*.wav
+deployment/vcm_pi_package/pi_recordings/*.wav
+deployment/vcm_pi_package/pi_validation/
+
+# Local OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Large/local archives generated outside this repository package
+*.tar.gz
+*.zip

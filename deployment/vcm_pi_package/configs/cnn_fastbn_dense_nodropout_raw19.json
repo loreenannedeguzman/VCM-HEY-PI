@@ -1,0 +1,20 @@
+{
+  "input_shape": [398, 40, 1],
+  "num_classes": 19,
+  "conv_filters": [24, 48, 96],
+  "kernel_size": [3, 3],
+  "pool_size": [2, 2],
+  "dropout": 0.0,
+  "dense_units": 64,
+  "dense_dropout": 0.0,
+  "pooling": "avgmax",
+  "use_batch_norm": true,
+  "batch_norm_momentum": 0.1,
+  "learning_rate": 0.001,
+  "optimizer": "adam",
+  "loss": "sparse_categorical_crossentropy",
+  "metrics": ["accuracy"],
+  "default_epochs": 60,
+  "default_batch_size": 32,
+  "early_stopping_patience": 4
+}
