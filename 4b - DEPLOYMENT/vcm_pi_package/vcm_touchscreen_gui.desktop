@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=VCM Offline
+Comment=Start the offline Raspberry Pi voice command machine
+Path=/home/pi/VCM-HEY-PI/4b - DEPLOYMENT/vcm_pi_package
+Exec=bash -lc 'cd "$HOME/VCM-HEY-PI/4b - DEPLOYMENT/vcm_pi_package" && bash scripts/run_vcm_touchscreen_gui.sh'
+Terminal=false
+Categories=Utility;

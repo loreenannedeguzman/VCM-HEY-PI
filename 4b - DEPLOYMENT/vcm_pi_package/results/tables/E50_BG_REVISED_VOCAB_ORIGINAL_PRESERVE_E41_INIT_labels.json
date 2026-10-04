@@ -1,0 +1,21 @@
+{
+  "0": "PLAY_MUSIC",
+  "1": "WEATHER",
+  "2": "TIME",
+  "3": "LIGHT_ON",
+  "4": "LIGHT_OFF",
+  "5": "LIGHT_DIM",
+  "6": "BRIGHTNESS",
+  "7": "TIMER",
+  "8": "ALARM",
+  "9": "TEMPERATURE",
+  "10": "NEXT",
+  "11": "PAUSE",
+  "12": "STOP",
+  "13": "VOLUME_UP",
+  "14": "VOLUME_DOWN",
+  "15": "CREATE_REMINDER",
+  "16": "LIST_REMINDERS",
+  "17": "CALL",
+  "18": "MESSAGE"
+}

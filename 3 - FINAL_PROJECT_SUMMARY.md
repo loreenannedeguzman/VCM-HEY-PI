@@ -1,17 +1,5 @@
 # E50 Voice Command Module
 
-## GitHub Deployment Quickstart
-
-For a fresh Raspberry Pi 5 download/clone, start here:
-
-1. Read `4a - DEPLOYMENT_QUICKSTART.md`.
-2. Enter `4b - DEPLOYMENT/vcm_pi_package`.
-3. Install the Raspberry Pi OS packages and Python dependencies listed there.
-4. Run `bash scripts/run_vcm_touchscreen_gui.sh` from the package directory, adjusting ALSA device names if needed.
-
-The deployment package now includes the required E37 and E50 label maps under `4b - DEPLOYMENT/vcm_pi_package/results/tables/`, so the predictor can map CNN output indices to labels without depending on the frozen source project.
-
----
 ## 1. Project Identity
 
 E50 is a fixed-vocabulary, wake-gated, offline voice-command module for Raspberry Pi 5. It is not a cloud assistant, LLM, arbitrary speech-to-text system, online ASR service, or unrestricted natural-language interface. The system listens locally for the wake phrase `Hey Pi`, classifies the following command audio into one of 19 fixed E50 labels, applies a confidence guardrail before action execution, routes accepted labels to deterministic local actions, plays local WAV responses, and returns to listening.
@@ -312,6 +300,5 @@ E53/VCM2 is retained only as an independent experiment. It is not the deployed E
 - Training executed for this edit: no.
 - Benchmark executed for this edit: no.
 - Documentation files updated by this packaging repair: `README.md`, `4a - DEPLOYMENT_QUICKSTART.md`, and current deployment documentation under `4b - DEPLOYMENT/vcm_pi_package/`.
-
 
 

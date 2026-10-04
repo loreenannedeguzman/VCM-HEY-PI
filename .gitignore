@@ -7,8 +7,8 @@ venv/
 
 # Runtime-generated audio/evidence
 pi_recordings/*.wav
-deployment/vcm_pi_package/pi_recordings/*.wav
-deployment/vcm_pi_package/pi_validation/
+4b - DEPLOYMENT/vcm_pi_package/pi_recordings/*.wav
+4b - DEPLOYMENT/vcm_pi_package/pi_validation/
 
 # Local OS/editor files
 .DS_Store
