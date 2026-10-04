@@ -252,9 +252,6 @@ bash scripts/run_vcm_touchscreen_gui.sh
 
 ## 13. Main Limitations And Items Not Established
 
-Do not fill these with estimates:
-
-- Author/team information: not established in project evidence.
 - A100-based final E50 training: not applicable. The final E50 command model was trained locally on the project laptop; the reviewed Phase BG/E50 records support local Windows CPU-only TensorFlow training, not A100 or external-cluster training.
 - GUI launch-to-ready latency: not measured as a core VCM benchmark metric. The GUI is documented as a post-freeze presentation/control layer, but no formal launch-to-ready timing benchmark was established.
 - Acoustic speaker-onset latency: not measured. Pi local response playback-start latency is measured only as qualified external evidence: mean 66.172 ms, P50 64.837 ms, P95/P99/max 73.999 ms over 5 accepted/executed trials.
@@ -293,25 +290,6 @@ Post-closure GUI passive telemetry is documented as an operator-facing observabi
 
 E53/VCM2 is retained only as an independent experiment. It is not the deployed E50 VCM, not the final E50 command model, not part of the E50 benchmark, and not part of the final Raspberry Pi action pipeline.
 
-## 16. Revision Integrity Confirmation
-
-- New experiments performed for this documentation revision: none.
-- Existing benchmark values preserved: yes.
-- Model weights changed: no.
-- E37 changed: no.
-- E40 changed: no.
-- Thresholds changed: no.
-- Dataset changed: no.
-- Training manifest changed: no.
-- Router/actions changed: no.
-- Response audio changed: no.
-- Runtime changed: no.
-- GUI changed: no.
-- E53 accessed for this edit: no.
-- VCM executed for this edit: no.
-- Training executed for this edit: no.
-- Benchmark executed for this edit: no.
-- Documentation files updated by this packaging repair: `README.md`, `4a - DEPLOYMENT_QUICKSTART.md`, and current deployment documentation under `4b - DEPLOYMENT/vcm_pi_package/`.
 
 
 
